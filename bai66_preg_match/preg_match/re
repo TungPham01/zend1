@@ -1,0 +1,15 @@
+1.	Kt địa chỉ EMAIL : 
+^\w{3,32}\@[a-z0-9]{3,}(\.[a-z]{2,4}){1,2}$
+
+
+2.	Kt tên đăng nhập có hợp lệ hay không: 
+^[a-z_][a-z0-9_\.\s]{4,31}$
+
+
+3.	Kt mật khẩu hợp lệ: 
+^(?=.*\d)(?=.*\W)(?=.*[A-Z]).{8}$
+
+
+4.	Kiểm tra địa chỉ website hợp lệ:
+^(https?://(www\.)?|(www\.))[a-z0-9\-]{3,}(\.[a-z]{2,4}){1,2}$
+
